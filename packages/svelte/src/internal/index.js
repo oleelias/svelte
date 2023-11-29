@@ -57,4 +57,4 @@ export {
 
 export { raf } from './client/timing.js';
 
-export { magic } from './client/magic.js';
+export { proxy } from './client/proxy.js';
