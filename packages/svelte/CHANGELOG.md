@@ -1,5 +1,11 @@
 # svelte
 
+## 5.0.0-next.16
+
+### Patch Changes
+
+- feat: $inspect rune ([#9705](https://github.com/sveltejs/svelte/pull/9705))
+
 ## 5.0.0-next.15
 
 ### Patch Changes
