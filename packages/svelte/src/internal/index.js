@@ -41,9 +41,11 @@ export {
 	unwrap
 } from './client/runtime.js';
 
-export * from './client/validate.js';
-
+export * from './client/each.js';
 export * from './client/render.js';
+export * from './client/validate.js';
+export { raf } from './client/timing.js';
+export { proxy } from './client/proxy.js';
 
 export { create_custom_element } from './client/custom-element.js';
 
@@ -54,7 +56,3 @@ export {
 	$window as window,
 	$document as document
 } from './client/operations.js';
-
-export { raf } from './client/timing.js';
-
-export { proxy } from './client/proxy.js';
